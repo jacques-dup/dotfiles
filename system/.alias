@@ -1,4 +1,7 @@
+export EDITOR="vi"
+
 alias ll='ls -ahl'
+alias lll='ls -hl'
 alias rr="rm -rf"
 alias paths='echo -e ${PATH//:/\\n}'
 alias hosts="sudo $EDITOR /etc/hosts"

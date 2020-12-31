@@ -21,5 +21,8 @@ brew cask install lastpass
 # CHROME
 brew cask install google-chrome
 
+# FIREFOX
+brew cask install firefox
+
 # SPOTIFY
 brew cask install spotify
