@@ -1,8 +1,8 @@
 # APPS
-alias chrome="open -a ~/Applications/Google\ Chrome.app"
-alias firefox="open -a ~/Applications/Firefox.app"
-alias code="open -a ~/Applications/Visual\ Studio\ Code.app"
-alias sub="open -a ~/Applications/Sublime\ Text.app"
+alias chrome="open -a \"Google Chrome\""
+alias firefox="open -a \"Firefox\""
+alias code="open -a \"Visual Studio Code\""
+alias sub="open -a \"Sublime Text\""
 
 # MAC TWEAKS
 alias zip="zip -x *.DS_Store -x *__MACOSX* -x *.AppleDouble*"
