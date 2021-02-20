@@ -1,28 +1,29 @@
 # HOMEBREW
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+export PATH=/opt/homebrew/bin:$PATH
 
 # NEOFETCH
 brew install neofetch
-rm ~/.config/neofetch/config.config
-cp ~/dotfiles/theme/neofetch/neofetch_config ~/.config/neofetch/config.config
+rm ~/.config/neofetch/config.conf
+cp ~/dotfiles/theme/neofetch/neofetch_config ~/.config/neofetch/config.conf
 
 # ITERM2
-brew cask install iterm2
+brew install iterm2
 
 # VSCODE
-brew cask install visual-studio-code
+brew install visual-studio-code
 
 # SUBLIME
-brew cask install sublime-text3
+brew install sublime-text
 
 # LASTPASS
-brew cask install lastpass
+brew install lastpass
 
 # CHROME
-brew cask install google-chrome
+brew install google-chrome
 
 # FIREFOX
-brew cask install firefox
+brew install firefox
 
 # SPOTIFY
-brew cask install spotify
+brew install spotify

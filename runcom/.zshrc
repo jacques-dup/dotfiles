@@ -1,3 +1,4 @@
+export PATH=/opt/homebrew/bin:$PATH
 export ZSH_DISABLE_COMPFIX=true
 export ZSH="$HOME/dotfiles/theme/oh-my-zsh"
 ZSH_THEME="dracula"
