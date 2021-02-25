@@ -6,18 +6,3 @@ setenv () {
 	export NODE_ENV=$1
 	echo "Node Environment set to $1"
 }
-
-# SPECIAL WORK SHORTCUTS
-kc () {
-    git clone https://github.com/Kurtosys/$1.git
-    cd $1
-}
-rep () {
-	if [[ "$#" -eq 0 ]]; 
-	then
-		cd ~/Repositories
-	else
-		cd ~/Repositories/ksys$1
-
-	fi
-}
