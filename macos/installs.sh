@@ -1,3 +1,6 @@
+# XCODE SELECT
+xcode-select --install
+
 # HOMEBREW
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 export PATH=/opt/homebrew/bin:$PATH
@@ -30,3 +33,7 @@ brew install firefox
 
 # SPOTIFY
 brew install spotify
+
+# PYTHON 3
+brew install python3
+brew install openssl

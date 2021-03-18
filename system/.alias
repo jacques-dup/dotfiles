@@ -1,7 +1,15 @@
+# >> EXPORTS
 export EDITOR="vi"
 
+# >> NAVIGATION
 alias ll='ls -ahl'
 alias lll='ls -hl'
 alias rr="rm -rf"
 alias paths='echo -e ${PATH//:/\\n}'
 alias hosts="sudo $EDITOR /etc/hosts"
+
+# >> PYTHON SHORTCUTS
+alias python=python3
+alias pip=pip3
+alias dj="python3 manage.py runserver"  # Django Run Server
+alias pyend="deactivate"                # pyvenv function shortcut counterpart
