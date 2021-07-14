@@ -12,4 +12,8 @@ alias hosts="sudo $EDITOR /etc/hosts"
 alias python=python3
 alias pip=pip3
 alias dj="python3 manage.py runserver"  # Django Run Server
+alias djm="python3 manage.py migrate"  # Django Run Server
 alias pyend="deactivate"                # pyvenv function shortcut counterpart
+
+## GIT
+alias tree="git log --all --oneline --graph --decorate"

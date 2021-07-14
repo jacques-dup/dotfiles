@@ -10,39 +10,7 @@ setenv () {
 
 # PYTHON
 pyvenv () {
-	python -m venv env
+	python3 -m venv env
 	. ./env/bin/activate
 	echo "python -m venv env; . ./env/bin/activate"
 } # Setting up a default "env" folder as the python virtual environment and activating it
-
-waitwhat () {
-	printf "\n\n _WAITWHAT_??___________________________________________________________________ \n"
-	case $1 in
-		"")
-			printf "| General\t|mk\t\t|creates a new directory and cd into it\t\t|\n"
-			printf "| * Node\t|nodecuts\t|lists out all Node shortcuts\t\t\t|\n"
-			nodecuts
-			printf "| * Python\t|pycuts\t\t|lists out all Python shortcuts\t\t\t|\n"
-			pycuts
-			;;
-		node)
-			nodecuts
-			;;
-		python)
-			pycuts
-			;;
-		*)
-			echo " ..erm??\n $1??"
-			;;
-	esac
-	printf " _______________________________________________________________________________ \n\n\n"
-}
-nodecuts () {
-	printf "| Node\t\t|setenv\t\t|sets NODE_ENV to the first param\t\t|\n"
-} # Lists custom shortcuts I set up for Node, in case I forget
-
-pycuts () {
-	printf "| Python\t|pyvenv\t\t|activates python virtual environemnet in 'env'\t|\n"
-	printf "| Python\t|pyend\t\t|alias: 'deactivate'; for use inside virtual env|\n"
-	printf "| Python\t|dj\t\t|alias: 'python3 manage.py runserver'\t\t|\n"
-} # Lists custom shortcuts I set up for Python, in case I forget
