@@ -23,7 +23,7 @@ brew install visual-studio-code
 brew install sublime-text
 
 # LASTPASS
-brew install lastpass
+# brew install lastpass
 
 # CHROME
 brew install google-chrome
@@ -37,3 +37,6 @@ brew install spotify
 # PYTHON 3
 brew install python3
 brew install openssl
+
+# HTOP
+brew install htop
