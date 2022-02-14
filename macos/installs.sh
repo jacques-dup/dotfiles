@@ -33,6 +33,7 @@ brew install firefox
 
 # SPOTIFY
 brew install spotify
+brew install --cask notunes
 
 # PYTHON 3
 brew install python3
