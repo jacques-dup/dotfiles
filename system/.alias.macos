@@ -11,3 +11,6 @@ alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
 # PIMPING UTILITY
 alias afk="open /System/Library/CoreServices/ScreenSaverEngine.app"
 alias logoff="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# MISC
+alias rep="cd ~/Repositories"

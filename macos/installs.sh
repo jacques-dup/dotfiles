@@ -6,7 +6,7 @@ xcode-select --install
 export PATH=/opt/homebrew/bin:$PATH
 
 # NVM
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+brew install nvm
 
 # NEOFETCH
 brew install neofetch
@@ -41,3 +41,6 @@ brew install openssl
 
 # HTOP
 brew install htop
+
+# CLIPY
+brew install clipy

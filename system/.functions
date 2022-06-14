@@ -14,3 +14,14 @@ pyvenv () {
 	. ./env/bin/activate
 	echo "python -m venv env; . ./env/bin/activate"
 } # Setting up a default "env" folder as the python virtual environment and activating it
+
+
+# DOCKER
+function dc-fn {
+        docker-compose $*
+}
+alias dc='dc-fn' #Yes, I know I'm overriding the dc command for doing in-terminal calculations.. but seriously.
+
+function rev {
+	cd ~/Repositories/LocalEnvironment/$1
+}
