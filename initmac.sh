@@ -1,5 +1,5 @@
-sh macos/defaults.sh        # MAC system defaults
-sh macos/installs.sh        # Getting Homebrew and installing favourites
-sh scripts/pulls.sh         # Pulling repos like oh-my-zsh
-sh scripts/link.sh          # Setting up symlinks to all the default places
-sh scripts/defaults.sh      # Setting up global defaults like git configs
+sh macos/defaults.sh
+sh macos/installs.sh
+sh scripts/link-bash.sh
+sh scripts/setup-zsh.sh
+sh scripts/defaults.sh

@@ -3,7 +3,7 @@ mk() {
     mkdir -p "$@" && cd "$@"
 	echo "made new directory $@"
 }
-setenv () {
+nodeenv () {
 	export NODE_ENV=$1
 	echo "export NODE_ENV=$1"
 }
