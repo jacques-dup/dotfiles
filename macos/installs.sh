@@ -44,3 +44,6 @@ brew install htop
 
 # CLIPY
 brew install clipy
+
+# RECTANGLE (Replacement for Spectacle)
+brew install rectangle
