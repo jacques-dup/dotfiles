@@ -1,5 +1,5 @@
 # XCODE SELECT
-xcode-select --install
+#xcode-select --install
 
 # HOMEBREW
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -7,6 +7,7 @@ export PATH=/opt/homebrew/bin:$PATH
 
 # NVM
 brew install nvm
+nvm install lts/gallium
 
 # NEOFETCH
 brew install neofetch
