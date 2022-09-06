@@ -6,13 +6,13 @@
 export PATH=/opt/homebrew/bin:$PATH
 
 # NVM
-brew install nvm
+# brew install nvm
+# Temporary just curl it cause brew install has some funkyness I need to sort out first
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 nvm install lts/gallium
 
 # NEOFETCH
 brew install neofetch
-rm ~/.config/neofetch/config.conf
-cp ~/dotfiles/theme/neofetch/neofetch_config ~/.config/neofetch/config.conf
 
 # ITERM2
 brew install iterm2
