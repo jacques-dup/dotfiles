@@ -15,7 +15,8 @@ nvm install lts/gallium
 brew install neofetch
 
 # ITERM2
-brew install iterm2
+# brew install iterm2
+brew install ghostty
 
 # VSCODE
 brew install visual-studio-code

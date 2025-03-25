@@ -18,7 +18,7 @@ pyvenv () {
 
 # DOCKER
 function dc-fn {
-        docker-compose $*
+        docker compose $*
 }
 alias dc='dc-fn' #Yes, I know I'm overriding the dc command for doing in-terminal calculations.. but seriously.
 
